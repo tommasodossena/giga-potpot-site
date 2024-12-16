@@ -1,0 +1,6 @@
+{
+	"framework": "nuxt",
+	"buildCommand": "nuxt build",
+	"devCommand": "nuxt dev",
+	"outputDirectory": ".output/public"
+}
