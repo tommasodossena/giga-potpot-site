@@ -12,7 +12,7 @@ useSeoMeta({
 
 <template>
   <div class="min-h-screen">
-    <div class="container pt-16">
+    <div class="container pt-24">
       <h1 class="text-4xl font-bold leading-none text-center">Pot Pot Pottery</h1>
       <h2 class="text-4xl font-semibold leading-none text-pot-gray text-center mb-8">
         Potteries by Leonardo Romano
