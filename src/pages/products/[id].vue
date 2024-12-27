@@ -56,7 +56,7 @@ onMounted(() => {
                 width="400"
                 height="400"
                 loading="eager"
-                class="w-full h-full object-cover rounded"
+                class="w-full h-full object-cover rounded pointer-events-none select-none"
               />
             </div>
 

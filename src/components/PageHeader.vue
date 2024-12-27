@@ -15,8 +15,8 @@ const handleLogoClick = (event) => {
 </script>
 
 <template>
-  <header class="fixed inset-x-0 top-2 z-10 container">
-    <div class="h-[60px] w-full bg-white rounded-md flex items-center justify-between px-4">
+  <header class="fixed inset-x-0 top-0 z-10 bg-transparent mix-blend-difference">
+    <div class="h-[60px] container flex items-center justify-between px-4">
       <Button
         to="/"
         as="NuxtLink"

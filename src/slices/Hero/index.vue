@@ -23,7 +23,7 @@ defineProps(
       preload="eager"
       placeholder
     />
-    <div class="container text-center pt-4">
+    <div class="container text-center pt-6 lg:pt-8">
       <PrismicRichText
         :field="slice.primary.heading"
         class="text-4xl font-bold leading-none"

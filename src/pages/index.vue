@@ -17,7 +17,7 @@ useSeoMeta({
       :slices="contentStore.homepage?.data?.slices ?? []"
       :components="components"
     />
-    <div class="container pb-8 pt-16 lg:pt-24">
+    <div class="container pb-8 pt-16 lg:pt-20">
       <ProductGrid :products="contentStore.transformedProducts" :limit="3" />
     </div>
   </div>

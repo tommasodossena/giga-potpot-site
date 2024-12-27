@@ -158,7 +158,7 @@ onMounted(() => {
         </div>
 
         <p class="absolute bottom-16 left-1/2 -translate-x-1/2 text-center text-md text-muted-foreground transition-opacity duration-300" ref="hintText">
-          (Move around to summon magical pots)
+          (Move the cursor to summon magical pots)
         </p>
       </div>
 
@@ -183,7 +183,6 @@ onMounted(() => {
   inset: 0;
   width: 100vw;
   height: 100vh;
-  background-color: white;
   display: grid;
   place-content: center;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -196,7 +195,7 @@ onMounted(() => {
   position: relative;
   width: 40px;
   height: 40px;
-  background-color: #999999;
+  background-color: #efe8de;
   will-change: transform;
 }
 

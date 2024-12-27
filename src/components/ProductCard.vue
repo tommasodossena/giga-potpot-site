@@ -31,7 +31,7 @@ const handleProductClick = () => {
         width="400"
         height="533"
         sizes="sm:100vw md:50vw lg:33vw"
-        class="w-full h-full object-cover"
+        class="w-full h-full object-cover pointer-events-none select-none"
         preload
       />
       <div class="absolute bottom-0 left-0 p-4 w-full bg-gradient-to-t from-background/80 to-transparent">

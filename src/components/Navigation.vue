@@ -8,7 +8,7 @@ const navLinks = ref([
 </script>
 
 <template>
-  <nav class="w-full md:w-auto flex justify-center md:justify-end space-x-8">
+  <nav class="w-full md:w-auto flex justify-between md:justify-end space-x-2">
     <Button
       v-for="link in navLinks"
       :key="link.path"
